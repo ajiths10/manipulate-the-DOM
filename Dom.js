@@ -74,7 +74,7 @@ let TText=document.createTextNode('HEllo word')
 SS.appendChild(TText);
 console.log(SS)
 //add element to the page
-let M=document.querySelector('header ')
-let TT=document.querySelector('form h2');
+let M=document.querySelector('ul .item ')
+let TT=document.querySelector('ul h2');
 console.log(SS);
 M.insertBefore(SS,TT);
