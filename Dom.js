@@ -42,3 +42,22 @@
 // ms.previousElementSibling.previousElementSibling.style.backgroundColor='green';
 
 
+//create element
+//create Div
+
+let newD=document.createElement('div')
+newD.className='new-Div';
+newD.id='123';
+//addattribute
+newD.setAttribute('title','helloTitle')
+console.log(newD);
+//create text node
+let newDText=document.createTextNode('Hello world')
+//add to div
+newD.appendChild(newDText);
+console.log(newD)
+//add element to the page
+let CC=document.querySelector('header, container')
+let h1=document.querySelector('header h1');
+console.log(newD);
+CC.insertBefore(newD,h1);
