@@ -52,12 +52,29 @@ newD.id='123';
 newD.setAttribute('title','helloTitle')
 console.log(newD);
 //create text node
-let newDText=document.createTextNode('Hello world')
+let newDText=document.createTextNode('HEllo word')
 //add to div
 newD.appendChild(newDText);
 console.log(newD)
 //add element to the page
-let CC=document.querySelector('header, container')
+let CC=document.querySelector('header ')
 let h1=document.querySelector('header h1');
 console.log(newD);
 CC.insertBefore(newD,h1);
+
+
+//create Div
+
+let SS=document.createElement('div')
+SS.className='new-Div1';
+SS.id='1234';
+//create text node
+let TText=document.createTextNode('HEllo word')
+//add to div
+SS.appendChild(TText);
+console.log(SS)
+//add element to the page
+let M=document.querySelector('header ')
+let TT=document.querySelector('form h2');
+console.log(SS);
+M.insertBefore(SS,TT);
